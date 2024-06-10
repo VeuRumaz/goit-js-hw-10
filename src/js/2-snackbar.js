@@ -27,7 +27,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         titleSize: '16px',
         message: message,
         messageColor: 'white',
-        iconUrl: 'imageSuccess',
+        iconUrl: imageSuccess,
         backgroundColor: 'green',
       });
     })
@@ -38,7 +38,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         titleSize: '16px',
         message: error,
         messageColor: 'white',
-        iconUrl: 'imageError',
+        iconUrl: imageError,
         backgroundColor: 'red',
       });
     });
