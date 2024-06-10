@@ -2,6 +2,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import imageError from '../img/error.svg';
 
 iziToast.settings({
   resetOnHover: true,
@@ -37,7 +38,7 @@ const options = {
         titleSize: '16px',
         message: 'Please choose a date in the future',
         messageColor: 'white',
-        iconUrl: '../img/red.png',
+        iconUrl: 'imageError',
         backgroundColor: 'red',
       });
       startButton.disabled = true;

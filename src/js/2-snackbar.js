@@ -1,5 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import imageSuccess from '../img/success.svg';
+import imageError from '../img/error.svg';
 
 iziToast.settings({
   resetOnHover: true,
@@ -25,7 +27,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         titleSize: '16px',
         message: message,
         messageColor: 'white',
-        iconUrl: '../img/green.png',
+        iconUrl: 'imageSuccess',
         backgroundColor: 'green',
       });
     })
@@ -36,7 +38,7 @@ document.querySelector('.form').addEventListener('submit', function (event) {
         titleSize: '16px',
         message: error,
         messageColor: 'white',
-        iconUrl: '../img/red.png',
+        iconUrl: 'imageError',
         backgroundColor: 'red',
       });
     });
