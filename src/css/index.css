@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 24px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    text-align: center;
+}
+
+a {
+  outline: transparent;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  color:red;
+  text-decoration: underline;
+}
+
+.white-text .iziToast-title,
+.white-text .iziToast-message,
+.white-text .iziToast-icon .fas {
+  color: white !important;
+}
