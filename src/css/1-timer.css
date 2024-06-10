@@ -1,9 +1,18 @@
+body {
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+}
 
 .back-link {
-  padding: 30px;
+  display: block;
+  margin-top: 30px;
   text-decoration: none;
   color: teal;
   font-size: 16px;
+
 }
 
 .back-link:hover {

@@ -11,10 +11,12 @@ a {
 }
 
 .back-link {
-  padding: 30px;
+  display: block;
+  padding-top: 30px;
   text-decoration: none;
   color: teal;
   font-size: 16px;
+
 }
 
 .back-link:hover {
