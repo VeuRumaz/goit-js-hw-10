@@ -37,7 +37,7 @@ const options = {
         titleSize: '16px',
         message: 'Please choose a date in the future',
         messageColor: 'white',
-        iconUrl: './img/red.png',
+        iconUrl: '../img/red.png',
         backgroundColor: 'red',
       });
       startButton.disabled = true;
